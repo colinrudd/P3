@@ -42,7 +42,7 @@ Route::get('/users', function()
 });
 
 // users results
-Route::post('/users-result', function()
+Route::post('/users', function()
 {
 	$users = Input::get('users');
 
