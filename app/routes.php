@@ -36,27 +36,27 @@ Route::post('/lorem', function()
 });
 
 // users
-Route::get('users', function()
+Route::get('/users', function()
 {
 	return View::make('users');
 });
 
 // users results
-Route::post('users-result', function()
+Route::post('/users-result', function()
 {
-	$user = Input::get('user');
+	$users = Input::get('users');
 
-	if (!is_numeric($user) || $user <= 0)
-		{ $user = 1; }
+	if (!is_numeric($users) || $users <= 0)
+		{ $users = 1; }
 
 	$address = Input::get('address');
-	$birthday = Input;;get('birthday');
+	$birthday = Input::get('birthday');
 	$blurb = Input::get('blurb');
 
 	return View::make('users-result', array(
-		'user' => $user,
+		'users' => $users,
 		'address' => $address,
 		'birthday' => $birthday,
-		'blueb' => $blurb
+		'blurb' => $blurb
 		));
 });
