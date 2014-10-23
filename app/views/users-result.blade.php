@@ -4,6 +4,7 @@
 
 <p>Your users:</p>
 
+<p>
 <?php
 
 	$faker = Faker\Factory::create();
@@ -15,7 +16,7 @@
 		}
 
 		if ($birthday) {
-			echo Faker\Provider\DateTime::date($format = 'Y-m-d', $max = 'now') . '<br />';
+			echo Faker\Provider\DateTime::date($format = 'm-d-Y', $max = 'now') . '<br />';
 		}
 
 		if ($blurb) {
@@ -28,5 +29,6 @@
 	}
 
 	?>
+</p>
 
 	@stop

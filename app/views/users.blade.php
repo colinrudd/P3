@@ -32,20 +32,22 @@
 		)) }}
 
 	<br />
+	<br />
 
 	{{ Form::label('address', 'Include address?') }}
     {{ Form::checkbox('address', '1'); }}
 
-	&nbsp;
-
+	&nbsp;&nbsp;
+	
 	{{ Form::label('birthday', 'Include birthday?') }}
 	{{ Form::checkbox('birthday', '1'); }}
 
-	&nbsp;
+	&nbsp;&nbsp;
 
 	{{ Form::label('blurb', 'Include blurb?') }}
 	{{ Form::checkbox('blurb', '1'); }}
 
+	<br />
 	<br />
 
 	{{ Form::submit('Generate',

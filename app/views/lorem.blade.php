@@ -32,6 +32,7 @@
 		)) }}
 
 	<br />
+	<br />
 
 	{{ Form::submit('Generate',
 		array('class' => 'pure-button'
