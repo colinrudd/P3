@@ -16,7 +16,8 @@
 @stop
 
 @section('info')
-	Use the form below to generate text.
+	This application will generate random placeholder text. 
+	Use the form below to generate your text.
 
 @stop
 
@@ -31,8 +32,7 @@
 		'maxlength' => 1
 		)) }}
 
-	<br />
-	<br />
+	<p class="info">(Max 9)</p>
 
 	{{ Form::submit('Generate',
 		array('class' => 'pure-button'

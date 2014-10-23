@@ -44,17 +44,17 @@ Route::get('/users', function()
 // users results
 Route::post('/users', function()
 {
-	$users = Input::get('users');
+	$user = Input::get('user');
 
-	if (!is_numeric($users) || $users <= 0)
-		{ $users = 1; }
+	if (!is_numeric($user) || $user <= 0)
+		{ $user = 1; }
 
 	$address = Input::get('address');
 	$birthday = Input::get('birthday');
 	$blurb = Input::get('blurb');
 
 	return View::make('users-result', array(
-		'users' => $users,
+		'user' => $user,
 		'address' => $address,
 		'birthday' => $birthday,
 		'blurb' => $blurb

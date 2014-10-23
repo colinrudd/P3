@@ -2,9 +2,9 @@
 
 @section('result')
 
-<p>Your users:</p>
+<h3>Your users:</h3>
 
-<p>
+<p class="output">
 <?php
 
 	$faker = Faker\Factory::create();

@@ -4,8 +4,7 @@ body {
 	margin: 5px auto;
 	width: 60%;
 	min-width: 280px;
-	border-right: 1px solid #000000;
-	border-left: 1px solid #000000;
+	border: 1px solid #000000;
 	font-family: 'Lato', sans-serif;
 }
 
@@ -31,16 +30,11 @@ form {
 	margin: 10px;
 }
 
-legend {
-	font-weight: bold;
-	font-size: large;
+.info {
+	text-align: left;
 }
-
-
-.password {
+.output {
 	background-color: #ffff99;
-	font-weight: bold;
-	min-height: 25px;
 	margin-left: 10px;
 	margin-right: 10px;
 }

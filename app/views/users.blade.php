@@ -16,7 +16,7 @@
 @stop
 
 @section('info')
-	Use the form below to generate users.
+	Use the form below to generate random users.
 
 @stop
 
@@ -31,18 +31,19 @@
 		'maxlength' => 2
 		)) }}
 
-	<br />
-	<br />
+	<p class="info">(Max 99)</p>
 
 	{{ Form::label('address', 'Include address?') }}
     {{ Form::checkbox('address', '1'); }}
 
-	&nbsp;&nbsp;
+	<br />
+	<br />
 	
 	{{ Form::label('birthday', 'Include birthday?') }}
 	{{ Form::checkbox('birthday', '1'); }}
 
-	&nbsp;&nbsp;
+	<br />
+	<br />
 
 	{{ Form::label('blurb', 'Include blurb?') }}
 	{{ Form::checkbox('blurb', '1'); }}

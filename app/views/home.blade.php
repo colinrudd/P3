@@ -19,6 +19,7 @@
 	Developers Best Friend is a collection of useful applications for developers.
 	DBF includes a Lorem Ipsum text generator and a Random User generator. 
 	Follow the links below to get started. <br />
+	
 @stop
 
 @section('result')

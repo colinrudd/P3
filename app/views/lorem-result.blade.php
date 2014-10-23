@@ -2,13 +2,13 @@
 
 @section('result')
 
-<p>Your text is:</p>
+<h3>Your text is:</h3>
 
-<p>
+<p class="output">
 <?php
 	$generator = new Badcow\LoremIpsum\Generator();
 	$text = $generator->getParagraphs($paragraphs);
-	echo implode('</p><p>', $text);
+	echo implode('</p><p class="output">', $text);
 ?>
 </p>
 
