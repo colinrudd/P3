@@ -26,8 +26,8 @@
 	'url' => 'users'
 	)) }}
 
-	{{ Form::label('users', 'Number of users?') }}
-	{{ Form::text('users', '1', array(
+	{{ Form::label('user', 'Number of users?') }}
+	{{ Form::text('user', '1', array(
 		'maxlength' => 2
 		)) }}
 

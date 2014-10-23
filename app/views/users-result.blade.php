@@ -8,7 +8,7 @@
 <?php
 
 	$faker = Faker\Factory::create();
-	for ($i=0; $i < $users; $i++) {
+	for ($i=0; $i < $user; $i++) {
 		echo $faker->name . '<br />';
 
 		if ($address) {
