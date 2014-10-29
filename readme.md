@@ -7,7 +7,7 @@ URL: [p3.colinrudd.me](http://p3.colinrudd.me)
 Description: Developers Best Friend includes a Lorem Ipsum text generator,
 and a Random User generator.
   
-Demo Info: TBD  
+Demo Info: http://screencast.com/t/hEssGSuL4g  
   
 Extra Details:  
   
